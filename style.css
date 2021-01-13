@@ -1,0 +1,94 @@
+/* 
+Template Name: Khadiza Shop.
+Author: Saful Alam.
+Version: 1.0;
+Tags: e-commerce, retails, supplier.
+Description: Khadiza shop is a responsive e-commerce html5 template.
+*/
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* base css */
+ul, li{
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* header menu */
+.site-header.header-bg {
+	background-repeat: no-repeat;
+    background-position: 30% -2%;
+    background-color: #FFFFF4;
+}
+.site-header .navbar {
+	padding: 30px 0;
+}
+.main-menu ul li a {
+	display: block;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #3C3C3C;
+	font-family: 'Roboto', sans-serif;
+}
+/* header banner */
+.header-featured{
+    padding: 100px 0;
+}
+.featured-product-info h1 {
+	font-size: 80px;
+	color: #363958;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+}
+.featured-product-info h1 span{
+    display: block;
+    color: #76C27E;
+}
+.featured-product-info p {
+	line-height: 28px;
+	color: #3E3E3E;
+	margin-bottom: 30px;
+}
+.featured-product-info .btn {
+	padding: 15px 30px;
+	font-size: 18px;
+    font-weight: 400;
+    background-color: #2A1E59;
+}
+.featured-product-info .btn i{
+    margin-right: 10px;
+}
+/* our service */
+.our-service{
+    padding: 100px 0;
+}
+.single-service-item {
+	padding: 15px 40px;
+}
+.single-service-item img {
+	height: 80px;
+	width: 80px;
+	margin-right: 20px;
+}
+.service-item-text {
+	margin-right: 50px;
+}
+.service-item-text h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #363958;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+}
+.service-item-text P{
+    margin: 0;
+    line-height: 28px;
+    color: #3E3E3E;
+}
