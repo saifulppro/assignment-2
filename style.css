@@ -28,6 +28,15 @@ img{
 .site-header .navbar {
 	padding: 30px 0;
 }
+.site-header .navbar-light .navbar-toggler-icon {
+	background-image: url("img/menu-2-outline\ 1.png");
+}
+.site-header .navbar-light .navbar-toggler {
+ 	border-color: rgba(0,0,0,0.0);
+}
+.site-header .navbar-toggler:focus {
+	box-shadow: 0 0 0 .0rem;
+}
 .main-menu ul li a {
 	display: block;
 	margin-right: 20px;
@@ -168,6 +177,7 @@ img{
 	min-width: 350px;
 	padding: 10px 20px;
 	border: none;
+	margin-bottom: 30px;
 }
 .block-element form input[type="submit"] {
 	background-color: #4dac4c;
